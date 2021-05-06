@@ -74,12 +74,6 @@ To run the tests, call the ``pytest`` command in the repository's root, or:
 
   python -m pytest
 
-To run only pickle core related tests, use:
-
-.. code-block:: bash
-
-  pytest -m mongo
-
 
 Adding documentation
 --------------------
@@ -123,7 +117,3 @@ Created by Shay Palachy (shay.palachy@gmail.com).
 .. |Codefactor| image:: https://www.codefactor.io/repository/github/shaypal5/chardif/badge?style=plastic
      :target: https://www.codefactor.io/repository/github/shaypal5/chardif
      :alt: Codefactor code quality
-
-.. links:
-.. _pymongo: https://api.mongodb.com/python/current/
-.. _watchdog: https://github.com/gorakhargosh/watchdog
