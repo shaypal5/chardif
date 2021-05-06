@@ -1,16 +1,12 @@
-Cachier
+chardif
 #######
 
-|PyPI-Status| |PyPI-Versions| |Build-Status| |Codecov| |Codefactor| |LICENCE|
+|PyPI-Status| |PyPI-Versions| |Build-Status| |Codefactor| |LICENCE|
 
-Persistent, stale-free, local and cross-machine caching for Python functions.
+Print per-character string diffs to terminal w/ Python.
 
-.. code-block:: python
+Done using `wasabi`_, and based on a `gist`_ by `ines`_ (which is also the writer of `wasabi`_). And in "based" I mean it's just that gist in a package form.
 
-  from chardif import chardif
-  import datetime
-
-  chardif("rabbits"", "grab it")
 
 .. role:: python(code)
   :language: python
@@ -21,7 +17,6 @@ Persistent, stale-free, local and cross-machine caching for Python functions.
 .. contents::
 
 .. section-numbering:
-
 
 
 Installation
@@ -97,14 +92,14 @@ This project is documented using the `numpy docstring conventions`_, which were 
 
 Credits
 =======
+
+Done using `wasabi`, and based on a `gist` by `ines` (which is also the writer of `wasabi`). And in "based" I mean it's just that gist in a package form.
+
 Created by Shay Palachy (shay.palachy@gmail.com).
 
-.. Contributers (in chronological order of first commit):
-
-.. * `shaypal5 <https://github.com/shaypal5>`_ (Shay Palachy)
-.. * `j-chad <https://github.com/j-chad>`_ (Jackson)
-
-
+.. _`gist`: https://gist.github.com/ines/04b47597eb9d011ade5e77a068389521
+.. _`wasabi`: https://pypi.org/project/wasabi/
+.. _`ines`: https://gist.github.com/ines
 
 .. |PyPI-Status| image:: https://img.shields.io/pypi/v/chardif.svg
   :target: https://pypi.python.org/pypi/chardif
@@ -115,7 +110,7 @@ Created by Shay Palachy (shay.palachy@gmail.com).
 .. |Build-Status| image:: https://travis-ci.org/shaypal5/chardif.svg?branch=master
   :target: https://travis-ci.org/shaypal5/chardif
 
-.. |LICENCE| image:: https://img.shields.io/pypi/l/chardif.svg
+.. |LICENCE| image:: https://img.shields.io/badge/License-MIT-ff69b4.svg
   :target: https://pypi.python.org/pypi/chardif
 
 .. |Codecov| image:: https://codecov.io/github/shaypal5/chardif/coverage.svg?branch=master

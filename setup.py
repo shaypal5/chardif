@@ -26,24 +26,23 @@ setup(
     name='chardif',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    description=('Persistent, stale-free, local and cross-machine caching for'
-                 ' Python functions.'),
+    description=('Print per-character string diffs to terminal w/ Python'),
     long_description=README_RST,
     license='MIT',
     author='Shay Palachy',
     author_email='shay.palachy@gmail.com',
     url='https://github.com/shaypal5/chardif',
     packages=['chardif'],
-    entry_points='''
-        [console_scripts]
-        chardif=chardif.scripts.cli:cli
-    ''',
+    # entry_points='''
+    #     [console_scripts]
+    #     chardif=chardif.scripts.cli:cli
+    # ''',
     install_requires=['wasabi'],
     extras_require={
         'test': TEST_REQUIRES,
     },
     platforms=['linux', 'osx', 'windows'],
-    keywords=['cache', 'persistence', 'mongo', 'memoization', 'decorator'],
+    keywords=['diff', 'wasabi', 'chardiff'],
     classifiers=[
         # Trove classifiers
         # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)
@@ -54,6 +53,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
         'Topic :: Software Development :: Libraries',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Utilities',
